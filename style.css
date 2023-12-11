@@ -1,0 +1,210 @@
+* {
+    text-decoration: none ;
+    margin: 0px ;
+    padding : 0px ;   
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Georgia;
+    color: green;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: skyblue;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: snow;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img {
+    width: max-content;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    color: green;
+    padding: 20px;
+}
+
+.kolom a {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+a.tmbl-aqua {
+    background: skyblue;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+a.tmbl-aqua:hover{
+    background: plum;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: greenyellow;
+    width: 100%;
+    line-height: 50px;
+}
+
+.ditengah{
+    text-align: center;
+    width: 100%;
+}
+
+.daftar-barang {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barang{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.barang img{
+    width: 80%;
+}
+
+.barang p{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+
+.Tentang-kita{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kita {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kita img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kita p{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+#Kontak {
+    background: skyblue;
+    padding: 50px 0px 50px 0px;
+    border-top: 1px solid black;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-sector {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-sector h2 {
+    color: green;
+    font-family: Georgia;
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-sector a {
+    text-align: center;
+    color: snow;
+    font-family:  Arial;
+    display: flex;
+}
